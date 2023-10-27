@@ -18,5 +18,4 @@ jobs:
     - name: Build and Push Container
       run: |-
             docker build . --tag ghcr.io/unclepaul84/tr-bot-demo:latest
-             docker run ghcr.io/unclepaul84/tr-bot-demo:latest
-             docker push ghcr.io/unclepaul84/tr-bot-demo:latest
+            docker push ghcr.io/unclepaul84/tr-bot-demo:latest
