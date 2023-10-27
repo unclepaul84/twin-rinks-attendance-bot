@@ -14,8 +14,8 @@ with:
 registry: ghcr.io
 username: ${{ github.actor }}
 password: ${{ secrets.GITHUB_TOKEN }}
-- name: Build the hello-docker Docker image
-run: |
+- name: Clean install dependencies and build
+  run: |
        docker build . --tag ghcr.io/unclepaul84/tr-bot-demo:latest
        docker run ghcr.io/unclepaul84/tr-bot-demo:latest
        docker push ghcr.io/unclepaul84/tr-bot-demo:latest
