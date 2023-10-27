@@ -16,17 +16,17 @@
             {
                "game_id": 3,
                "description": "Thur Dec 3 - BLUE VS GRAY",
-               "going": false
+               "going": true
             },
             {
                "game_id": 4,
                "description": "Thur Dec 4 - BLUE VS GRAY",
-               "going": false
+               "going": true
             },
             {
                "game_id": 5,
                "description": "Thur Dec 5 - BLUE VS GRAY",
-               "going": false
+               "going": true
             },
             {
                "game_id": 6,
