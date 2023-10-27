@@ -48,7 +48,7 @@ no = "❌"
 async def list_game_attendance_approval(game_record, update):
     print(game_record)
     for g in game_record["games"]:
-        await update.message.reply_text(f'Please confirm attendance: {g["description"]}\ current response: {yes if g["going"] else no}', reply_markup = build_attendance_buttons_markup(g))
+        await update.message.reply_text(f'Please confirm attendance: {g["description"]}\n current response: {yes if g["going"] else no}', reply_markup = build_attendance_buttons_markup(g))
 
 def build_attendance_buttons_markup(game):
     keyboard = [
