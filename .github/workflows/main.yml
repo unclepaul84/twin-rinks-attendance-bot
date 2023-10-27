@@ -17,5 +17,5 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: Build and Push Container
       run: |-
-            docker build . --tag ghcr.io/unclepaul84/tr-bot-demo:latest
-            docker push ghcr.io/unclepaul84/tr-bot-demo:latest
+            docker build . --tag ghcr.io/unclepaul84/twin-rinks-attendance-bot/tr_bot_demo:latest
+            docker push ghcr.io/unclepaul84/twin-rinks-attendance-bot/tr_bot_demo:latest
