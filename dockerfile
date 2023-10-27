@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 # unblock port 80 for the Bottle app to run on
 EXPOSE 80
 # execute the Bottle app
-CMD ["python", “app.py"]
+CMD ["python", "app.py" , "-u"]
