@@ -1,0 +1,40 @@
+{
+   "data": [
+      {
+         "chat_id": 471079567,
+         "games": [
+            {
+               "game_id": 1,
+               "description": "Thur Dec 1 - BLUE VS GRAY",
+               "going": false
+            },
+            {
+               "game_id": 2,
+               "description": "Thur Dec 2 - BLUE VS GRAY",
+               "going": false
+            },
+            {
+               "game_id": 3,
+               "description": "Thur Dec 3 - BLUE VS GRAY",
+               "going": false
+            },
+            {
+               "game_id": 4,
+               "description": "Thur Dec 4 - BLUE VS GRAY",
+               "going": false
+            },
+            {
+               "game_id": 5,
+               "description": "Thur Dec 5 - BLUE VS GRAY",
+               "going": false
+            },
+            {
+               "game_id": 6,
+               "description": "Thur Dec 6 - BLUE VS GRAY",
+               "going": true
+            }
+         ],
+         "id": 179113896208968830
+      }
+   ]
+}
